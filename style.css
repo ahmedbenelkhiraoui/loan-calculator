@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-family: 'Open Sans';
+    background-color: rgb(53, 72, 85);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 3px;
+    box-shadow: -4px 4px 7px rgba(0, 0, 0, 0.308);
+}
+
+.div {
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 3px;
+    margin-bottom: .8rem;
+}
+
+.input {
+    height: 1.8rem;
+    padding-left: 1rem;
+    width: 100%;
+    border: none;
+    font-size: .9rem;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(53, 72, 85);
+}
+
+.submit {
+    border: none;
+    color: #ffffff;
+    background-color: rgb(53, 72, 85);
+    height: 1.8rem;
+    width: 100%;
+    font-weight: 600;
+    border: none;
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.171);
+}
+
+.sign {
+    background-color: rgb(224, 224, 224);
+    color: rgb(148, 148, 148);
+    text-align: center;
+    font-weight: 600;
+    font-size: .9rem;
+    width: 2rem;
+    padding-top: .3rem;
+    border-right: 1px solid rgb(148, 148, 148);
+}
+
+.result {
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 3px;
+    margin-bottom: .8rem;
+}
+
+.result-label {
+    background-color: rgb(224, 224, 224);
+    color: rgb(80, 79, 79);
+    padding-left: 1rem;
+    font-weight: 500;
+    font-size: .9rem;
+    width: 14rem;
+    padding-top: .3rem;
+    border-right: 1px solid rgb(148, 148, 148);
+}
+
+.result-input {
+    height: 1.8rem;
+    padding-left: 1rem;
+    width: 100%;
+    border: none;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.results-title {
+    text-align: center;
+    margin-bottom: .6rem;
+    margin-top: .6rem;
+    color: rgb(53, 72, 85);
+}
+
+.error {
+    background-color: rgba(255, 0, 0, 0.212);
+    color: rgb(182, 48, 44);
+    font-weight: 600;
+    padding: .8rem 0;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.137);
+    margin-bottom: .8rem;
+}
+
+.loader {
+    margin: 0 auto;
+}
+
+.results-box,
+.loader {
+    display: none;
+}

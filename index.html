@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Loan Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Loan Calculator</h1>
+      <form action="" class="loan-form">
+        <!-- <div class="error">Please check your numbers</div> -->
+        <div class="div">
+          <span class="sign">$</span>
+          <input
+            type="number"
+            name=""
+            id=""
+            class="input amount"
+            placeholder="Loan Amount"
+          />
+        </div>
+        <div class="div">
+          <span class="sign">%</span>
+          <input
+            type="number"
+            name=""
+            id=""
+            class="input interest"
+            placeholder="Annual Interest"
+          />
+        </div>
+        <div class="div">
+          <input
+            type="number"
+            name=""
+            id=""
+            class="input years"
+            placeholder="Repayment Years"
+          />
+        </div>
+        <div class="div">
+          <input type="submit" value="Calculate" class="submit" />
+        </div>
+      </form>
+      <div class="loader">
+        <h3 class="results-title">Calculating...</h3>
+        <img src="/img/loading.gif" alt="" />
+      </div>
+      <div class="results-box">
+        <h3 class="results-title">Results</h3>
+        <div class="result">
+          <span class="result-label">Monthly Payment</span>
+          <input
+            type="number"
+            name=""
+            id=""
+            class="result-input monthly-payment"
+            disabled
+          />
+        </div>
+        <div class="result">
+          <span class="result-label">Total Payment</span>
+          <input
+            type="number"
+            name=""
+            id=""
+            class="result-input total-payment"
+            disabled
+          />
+        </div>
+        <div class="result">
+          <span class="result-label">Total Interest</span>
+          <input
+            type="number"
+            name=""
+            id=""
+            class="result-input total-interest"
+            disabled
+          />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
